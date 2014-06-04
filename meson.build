@@ -40,6 +40,7 @@ config_h.set('USE_PLUGIN', get_option('with-plugin'))
 
 config_h.set('G_DISABLE_SINGLE_INCLUDES', true)
 config_h.set('GTK_DISABLE_DEPRECATED', true)
+config_h.set('GDK_DISABLE_DEPRECATED', true)
 config_h.set('GTK_DISABLE_SINGLE_INCLUDES', true)
 config_h.set('GDK_PIXBUF_DISABLE_SINGLE_INCLUDES', true)
 config_h.set('GLIB_VERSION_MAX_ALLOWED', 'GLIB_VERSION_2_34')
